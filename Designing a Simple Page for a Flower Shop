@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Indoor Plants</title>
+    <meta name="description" content="Explore a variety of indoor plants for your home or office.">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <!-- Title -->
+    <h1>Indoor Plants</h1>
+
+    <!-- daydream-roses Section -->
+    <h2>daydream-roses</h2>
+    <p>The daydream-roses, known for its elegant red flowers, is a popular choice for indoor spaces.</p>
+    <p>Price: $15</p>
+    <img src="https://rosehillflowers.imgix.net/images/itemVariation/ra122026-26012340557.png?w=w=345&h=415&dpr=2" alt="daydream-roses">
+
+    <!-- autumn-gemstones Section -->
+    <h2>autumn-gemstones</h2>
+    <p>The autumn-gemstones,is a low-maintenance indoor plant perfect for beginners.</p>
+    <p>Price: $20</p>
+    <img src="https://rosehillflowers.imgix.net/images/itemVariation/ra122026-26012340557.png?w=w=345&h=415&dpr=2" alt="autumn-gemstones">
+</body>
+</html>
