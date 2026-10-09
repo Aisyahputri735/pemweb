@@ -11,14 +11,14 @@
 
     <!-- daydream-roses Section -->
     <h2>daydream-roses</h2>
-    <p>The daydream-roses, known for its elegant red flowers, is a popular choice for indoor spaces.</p>
+    <p>The daydream-roses, known for its elegant flowers, is a popular choice for indoor spaces.</p>
     <p>Price: $15</p>
-    <img src="https://rosehillflowers.imgix.net/images/itemVariation/ra122026-26012340557.png?w=w=345&h=415&dpr=2" alt="daydream-roses">
+    <img src="https://www.flower.am/_next/image?url=https%3A%2F%2Fbackend.flower.am%2Fmedia%2Fproducts%2F1773661193576-922846711.jpg&w=1920&q=90">
 
-    <!-- autumn-gemstones Section -->
-    <h2>autumn-gemstones</h2>
+    <!-- rosehillflowers Section -->
+    <h2>rosehillflowers</h2>
     <p>The autumn-gemstones,is a low-maintenance indoor plant perfect for beginners.</p>
     <p>Price: $20</p>
-    <img src="https://rosehillflowers.imgix.net/images/itemVariation/ra122026-26012340557.png?w=w=345&h=415&dpr=2" alt="autumn-gemstones">
+    <img src="https://rosehillflowers.imgix.net/images/itemVariation/ra122026-26012340557.png?w=w=345&h=415&dpr=2" alt="rosehillflowers">
 </body>
 </html>
