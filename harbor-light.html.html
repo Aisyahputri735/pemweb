@@ -1,0 +1,240 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover community services, educational programs, and events at Harbor Light Community Center.">
+    <title>Harbor Light Community Center</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            background-color: #f4f8f7;
+            color: #333333;
+        }
+
+        header {
+            background-color: #245b63;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .center-and-space-content {
+            text-align: center;
+            padding: 10px;
+        }
+
+        .center-and-space-content img {
+            max-width: 180px;
+            height: auto;
+        }
+
+        nav {
+            background-color: #dcebea;
+            padding: 12px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav a {
+            color: #17474d;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 25px auto;
+            padding: 20px;
+            background-color: white;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #245b63;
+        }
+
+        .community-image {
+            display: block;
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            margin: 15px auto;
+            border-radius: 8px;
+        }
+
+        .event-card {
+            background-color: #edf6f3;
+            padding: 15px;
+            border-left: 5px solid #43877b;
+        }
+
+        footer {
+            background-color: #245b63;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer a {
+            color: white;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        @media (max-width: 600px) {
+            main {
+                margin: 10px;
+                padding: 15px;
+            }
+
+            nav ul {
+                gap: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="center-and-space-content">
+            <img
+                src="logo.jpg"
+                alt="Harbor Light Community Center Logo"
+            >
+        </div>
+
+        <h1>Welcome to Harbor Light Community Center</h1>
+
+        <p>
+            A welcoming place to learn, connect, and grow together.
+        </p>
+    </header>
+
+    <nav role="navigation" aria-label="Main navigation">
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#events">Join Our Events</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+
+            <p>
+                Harbor Light Community Center brings people together
+                through education, recreation, and community support.
+                We aim to create a friendly and inclusive environment
+                where everyone feels welcome.
+            </p>
+
+            <img
+                class="community-image"
+                src="community-center.jpg"
+                alt="Harbor Light Community Center People"
+            >
+
+            <img
+                src="banner.jpg"
+                alt=""
+                aria-hidden="true"
+                class="community-image"
+            >
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+
+            <ul>
+                <li>Educational workshops and learning programs</li>
+                <li>Youth activities and creative classes</li>
+                <li>Community support and volunteer opportunities</li>
+                <li>Health, fitness, and recreational activities</li>
+            </ul>
+        </section>
+
+        <section id="events">
+            <h2>Join Our Events</h2>
+
+            <section
+                class="event-card"
+                itemscope
+                itemtype="https://schema.org/Event"
+            >
+                <h3 itemprop="name">Annual Summer Festival</h3>
+
+                <p itemprop="description">
+                    Join our annual summer celebration featuring
+                    local performances, family activities, food,
+                    and fun for the entire community.
+                </p>
+
+                <p>
+                    <strong>Event Date:</strong>
+                    <time
+                        itemprop="startDate"
+                        datetime="2050-06-15T10:00"
+                    >June 15, 2050, at 10:00 AM</time>
+                </p>
+
+                <p><strong>Location:</strong> Harbor Light Community Center</p>
+            </section>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+
+            <p>
+                Have a question or want to participate in our programs?
+                We would love to hear from you.
+            </p>
+
+            <p>
+                <strong>Email:</strong>
+                <a href="mailto:info@harborlight.com">
+                    info@harborlight.com
+                </a>
+            </p>
+
+            <p>
+                <strong>Address:</strong>
+                25 Harbor Street, Community District
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            Thank you for being part of our community.
+        </p>
+
+        <p>&copy; 2050 Harbor Light Community Center</p>
+    </footer>
+
+</body>
+</html>
